@@ -1,0 +1,1379 @@
+﻿{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"htmlComment": {
+		"scope": "html, htm",
+		"prefix": "commm20",
+		"body": [
+			"<!--------------------  $2  -------------------->"
+		],
+		"description": "Comment"
+	},
+	"htmlCommentStartMin": {
+		"scope": "html, htm",
+		"prefix": "comss20",
+		"body": [
+			"<!--------------------  $2  --Start--  -------------------->"
+		],
+		"description": "CommentStartMin"
+	},
+	"htmlCommentEndMin": {
+		"scope": "html, htm",
+		"prefix": "comee20",
+		"body": [
+			"<!--------------------  $2  --End--  -------------------->"
+		],
+		"description": "CommentEndMin"
+	},
+	"htmlCommentStart": {
+		"scope": "html, htm",
+		"prefix": "comssss35",
+		"body": [
+			"<!-----------------------------------  $2  --Start--  ----------------------------------->"
+		],
+		"description": "CommentStart"
+	},
+	"htmlCommentEnd": {
+		"scope": "html, htm",
+		"prefix": "comeeee35",
+		"body": [
+			"<!-----------------------------------  $2  --End--  ----------------------------------->"
+		],
+		"description": "CommentEnd"
+	},
+	"htmlCommentStarts": {
+		"scope": "html, htm",
+		"prefix": "comssssss45",
+		"body": [
+			"<!---------------------------------------------  $2  --Start--  --------------------------------------------->"
+		],
+		"description": "CommentStarts"
+	},
+	"htmlCommentEnds": {
+		"scope": "html, htm",
+		"prefix": "comeeeeee45",
+		"body": [
+			"<!---------------------------------------------  $2  --End--  --------------------------------------------->"
+		],
+		"description": "CommentEnds"
+	},
+	"ibg": {
+		"scope": "html, htm",
+		"prefix": "ibg",
+		"body": [
+			"<div class=\"${1:hi}__ibg _ibg\">",
+			"\t<img src=\"img/background-image/bgi-01.png\" alt=\"background\">",
+			"</div>",
+		],
+		"description": "ibg"
+	},
+	"img": {
+		"scope": "html, htm",
+		"prefix": "imgg",
+		"body": [
+			"<img src=\"@img/$0\" alt=\"img\">",
+		],
+		"description": "img"
+	},
+	"htmlAnime": {
+		"scope": "html, htm",
+		"prefix": "anims",
+		"body": [
+			"data-watch",
+		],
+		"description": "data-watch"
+	},
+	"htmlAnimes": {
+		"scope": "html, htm",
+		"prefix": "animo",
+		"body": [
+			"data-watch-once",
+		],
+		"description": "data-watch-once"
+	},
+	"htmlAnimes%": {
+		"scope": "html, htm",
+		"prefix": "animpr",
+		"body": [
+			"data-watch-threshold=\"$1\"",
+		],
+		"description": "data-watch-threshold="0.5""
+	},
+	"menu": {
+		"prefix": "menu",
+		"body": "<div class=\"header__menu menu\">\n\t<button type=\"button\" class=\"menu__icon icon-menu\"><span></span></button>\n\t<nav class=\"menu__body\">\n\t\t<ul class=\"menu__list\">\n\t\t\t<li class=\"menu__item\"><a href=\"\" class=\"menu__link\"></a></li>\n\t\t</ul>\n\t</nav>\n</div>",
+		"description": "menu"
+	},
+	/* =============================================  JavaScript  --End--  ============================================= */
+	"jsComment": {
+		"scope": "javascript,typescript",
+		"prefix": "commm20",
+		"body": [
+			"/* ====================  $2  ==================== */"
+		],
+		"description": "Comment"
+	},
+	"jsCommentStartMin": {
+		"scope": "javascript,typescript",
+		"prefix": "comss20",
+		"body": [
+			"/* ====================  $2  --Start--  ==================== */"
+		],
+		"description": "CommentStartMin"
+	},
+	"jsCommentEndMin": {
+		"scope": "javascript,typescript",
+		"prefix": "comee20",
+		"body": [
+			"/* ====================  $2  --End--  ==================== */"
+		],
+		"description": "CommentEndMin"
+	},
+	"jsCommentStart": {
+		"scope": "javascript,typescript",
+		"prefix": "comssss35",
+		"body": [
+			"/* ===================================  $2  --Start--  =================================== */"
+		],
+		"description": "CommentStart"
+	},
+	"jsCommentEnd": {
+		"scope": "javascript,typescript",
+		"prefix": "comeeee35",
+		"body": [
+			"/* ===================================  $2  --End--  =================================== */"
+		],
+		"description": "CommentEnd"
+	},
+	"jsCommentStarts": {
+		"scope": "javascript,typescript",
+		"prefix": "comssssss45",
+		"body": [
+			"/* =============================================  $2  --Start--  ============================================= */"
+		],
+		"description": "CommentStarts"
+	},
+	"jsCommentEnds": {
+		"scope": "javascript,typescript",
+		"prefix": "comeeeeee45",
+		"body": [
+			"/* =============================================  $2  --End--  ============================================= */"
+		],
+		"description": "CommentEnds"
+	},
+	"relDoc": {
+		"scope": "javascript,typescript",
+		"prefix": "doccc",
+		"body": [
+			"document.querySelector(\"$2\");"
+		],
+		"description": "relDoc"
+	},
+	"screenWidth": {
+		"scope": "javascript,typescript",
+		"prefix": "swidth",
+		"body": [
+			"let screenWidth = window.innerWidth;"
+		],
+		"description": "screenWidth"
+	},
+	"relDocs": {
+		"scope": "javascript,typescript",
+		"prefix": "doccccc",
+		"body": [
+			"document.querySelectorAll(\"$2\");"
+		],
+		"description": "relDocs"
+	},
+	"classToggleActive": {
+		"scope": "javascript,typescript",
+		"prefix": "active",
+		"body": [
+			"NAMECLASS.classList.toogle(\"_active\");"
+		],
+		"description": "classToggleActive"
+	},
+	"classRemoveActive": {
+		"scope": "javascript,typescript",
+		"prefix": "removeclass",
+		"body": [
+			"NAMECLASS.classList.remove(\"_active\");"
+		],
+		"description": "classRemoveActive"
+	},
+	"letNAME": {
+		"scope": "javascript,typescript",
+		"prefix": "ll",
+		"body": [
+			"let NAMEVAR = $2;"
+		],
+		"description": "NAMEVAR"
+	},
+	"letNAMEhref": {
+		"scope": "javascript,typescript",
+		"prefix": "lllll",
+		"body": [
+			"let NAMEVAR = document.querySelector(\".$2\");"
+		],
+		"description": "NAMEVAR"
+	},
+	"contains": {
+		"scope": "javascript,typescript",
+		"prefix": "contains",
+		"body": [
+			"NAMEVAR.classList.contains(\"_active\");"
+		],
+		"description": "contains"
+	},
+	"if": {
+		"scope": "javascript,typescript",
+		"prefix": "ifff",
+		"body": [
+			"if (NAMEVAR.length > 0) {",
+			" 	$2",
+			"}"
+		],
+		"description": "IF"
+	},
+	"ifForI": {
+		"scope": "javascript,typescript",
+		"prefix": "iffor",
+		"body": [
+			"if (NAMEVAR.length > 0) {",
+			"	for (let i = 0; i < NAMEVAR.length; i++) {",
+			"		let NAMEVARS = NAMEVAR[i];",
+			"			$2",
+			"	}",
+			"}"
+		],
+		"description": "Проверка сколько есть классов с таким названием"
+	},
+	"addEventListenerClick": {
+		"scope": "javascript,typescript",
+		"prefix": "click",
+		"body": [
+			"NAME.addEventListener(\"click\", function () {",
+			"	$2",
+			"});"
+		],
+		"description": "Функция при клике"
+	},
+	/* =============================================  JavaScript  --End--  ============================================= */
+	/* =============================================  CSS  --Start--  ============================================= */
+	"font-weight": {
+		"scope": "css,sass,scss,less",
+		"prefix": "fontinfo",
+		"body": [
+			"100 - thin",
+			"200 - UltraLite",
+			"300 - lite",
+			"400 - normal",
+			"500 - medium",
+			"600 - semibold",
+			"700 - bold",
+			"800 - Heavy",
+			"900 - black",
+		],
+		"description": "font-weight"
+	},
+	"animElementsStyle": {
+		"scope": "sass,scss,less",
+		"prefix": "animelemet",
+		"body": [
+			"transform: translate(0px, 180px);",
+			"transition: all 1s ease 0s;",
+			".header._watcher-view & {",
+			"	transform: translate(0px, 0px);",
+			"}",
+		],
+		"description": "font-weight"
+	},
+	"animElementNoActive": {
+		"scope": "sass,scss,less",
+		"prefix": "anima1",
+		"body": [
+			"transform: translate(0px, 180px);",
+			"transition: all 1s ease 0s;",
+		],
+		"description": "font-weight"
+	},
+	"animElementYesActive": {
+		"scope": "sass,scss,less",
+		"prefix": "anima2",
+		"body": [
+			".header._watcher-view & {",
+			"	transform: translate(0px, 0px);",
+			"}",
+		],
+		"description": "font-weight"
+	},
+	"Sass/scssHerComment": {
+		"scope": "sass,scss,less",
+		"prefix": "here",
+		"body": [
+			"// ====================  here $2  ====================================================================== //"
+		],
+		"description": "Sass/scssHerComment"
+	},
+	"cssComment": {
+		"scope": "css,sass,scss,less",
+		"prefix": "commm20",
+		"body": [
+			"/* ====================  $2  ==================== */"
+		],
+		"description": "Comment"
+	},
+	"cssCommentStartMin": {
+		"scope": "css,sass,scss,less",
+		"prefix": "comss20",
+		"body": [
+			"/* ====================  $2  --Start--  ==================== */"
+		],
+		"description": "CommentStartMin"
+	},
+	"cssCommentEndMin": {
+		"scope": "css,sass,scss,less",
+		"prefix": "comee20",
+		"body": [
+			"/* ====================  $2  --End--  ==================== */"
+		],
+		"description": "CommentEndMin"
+	},
+	"cssCommentStart": {
+		"scope": "css,sass,scss,less",
+		"prefix": "comssss35",
+		"body": [
+			"/* ===================================  $2  --Start--  =================================== */"
+		],
+		"description": "CommentStart"
+	},
+	"cssCommentEnd": {
+		"scope": "css,sass,scss,less",
+		"prefix": "comeeee35",
+		"body": [
+			"/* ===================================  $2  --End--  =================================== */"
+		],
+		"description": "CommentEnd"
+	},
+	"cssCommentStarts": {
+		"scope": "css,sass,scss,less",
+		"prefix": "comssssss45",
+		"body": [
+			"/* =============================================  $2  --Start--  ============================================= */"
+		],
+		"description": "CommentStarts"
+	},
+	"cssCommentEnds": {
+		"scope": "css,sass,scss,less",
+		"prefix": "comeeeeee45",
+		"body": [
+			"/* =============================================  $2  --End--  ============================================= */"
+		],
+		"description": "CommentEnds"
+	},
+	"ahref": {
+		"scope": "css,sass,scss,less",
+		"prefix": "ahref",
+		"body": [
+			"-webkit-tap-highlight-color: $$clickByTouchColor1;"
+		],
+		"description": "-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
+	},
+	"width": {
+		"scope": "css,sass,scss,less",
+		"prefix": "ww",
+		"body": [
+			"width: 100%;"
+		],
+		"description": "width: 100%;"
+	},
+	"height": {
+		"scope": "css,sass,scss,less",
+		"prefix": "hh",
+		"body": [
+			"height: 100%;"
+		],
+		"description": "height: 100%;"
+	},
+	"pp": {
+		"scope": "css,sass,scss,less",
+		"prefix": "pp",
+		"body": [
+			"padding: 0px 0px;"
+		],
+		"description": "padding: 0px 0px;"
+	},
+	"pptt": {
+		"scope": "css,sass,scss,less",
+		"prefix": "pptt",
+		"body": [
+			"padding: $2px 0px;"
+		],
+		"description": "padding: $2px 0px;"
+	},
+	"ppll": {
+		"scope": "css,sass,scss,less",
+		"prefix": "ppll",
+		"body": [
+			"padding: 0px $2px;"
+		],
+		"description": "padding: 0px $2px;"
+	},
+	"pppp": {
+		"scope": "css,sass,scss,less",
+		"prefix": "pppp",
+		"body": [
+			"padding: 0px 0px 0px 0px;"
+		],
+		"description": "padding: 0px 0px 0px 0px;"
+	},
+	"pttt": {
+		"scope": "css,sass,scss,less",
+		"prefix": "pttt",
+		"body": [
+			"padding: $2px 0px 0px 0px;"
+		],
+		"description": "padding: $2px 0px 0px 0px;"
+	},
+	"pbbb": {
+		"scope": "css,sass,scss,less",
+		"prefix": "pbbb",
+		"body": [
+			"padding: 0px 0px $2px 0px;"
+		],
+		"description": "padding: 0px 0px $2px 0px;"
+	},
+	"prrr": {
+		"scope": "css,sass,scss,less",
+		"prefix": "prrr",
+		"body": [
+			"padding: 0px $2px 0px 0px;"
+		],
+		"description": "padding: 0px $2px 0px 0px;"
+	},
+	"plll": {
+		"scope": "css,sass,scss,less",
+		"prefix": "plll",
+		"body": [
+			"padding: 0px 0px 0px $2px;"
+		],
+		"description": "padding: 0px 0px 0px $2px;"
+	},
+	"mm": {
+		"scope": "css,sass,scss,less",
+		"prefix": "mm",
+		"body": [
+			"margin: 0px 0px;"
+		],
+		"description": "margin: 0px 0px;"
+	},
+	"mmtt": {
+		"scope": "css,sass,scss,less",
+		"prefix": "mmtt",
+		"body": [
+			"margin: $2px 0px;"
+		],
+		"description": "margin: $2px 0px;"
+	},
+	"mmll": {
+		"scope": "css,sass,scss,less",
+		"prefix": "mmll",
+		"body": [
+			"margin: 0px $2px;"
+		],
+		"description": "margin: 0px $2px;"
+	},
+	"mmmm": {
+		"scope": "css,sass,scss,less",
+		"prefix": "mmmm",
+		"body": [
+			"margin: 0px 0px 0px 0px;"
+		],
+		"description": "margin: 0px 0px 0px 0px;"
+	},
+	"mttt": {
+		"scope": "css,sass,scss,less",
+		"prefix": "mttt",
+		"body": [
+			"margin: $2px 0px 0px 0px;"
+		],
+		"description": "margin: $2px 0px 0px 0px;"
+	},
+	"mbbb": {
+		"scope": "css,sass,scss,less",
+		"prefix": "mbbb",
+		"body": [
+			"margin: 0px 0px $2px 0px;"
+		],
+		"description": "margin: 0px 0px $2px 0px;"
+	},
+	"mrrr": {
+		"scope": "css,sass,scss,less",
+		"prefix": "mrrr",
+		"body": [
+			"margin: 0px $2px 0px 0px;"
+		],
+		"description": "margin: 0px $2px 0px 0px;"
+	},
+	"mlll": {
+		"scope": "css,sass,scss,less",
+		"prefix": "mlll",
+		"body": [
+			"margin: 0px 0px 0px $2px;"
+		],
+		"description": "margin: 0px 0px 0px $2px;"
+	},
+	"position: absolute;": {
+		"scope": "css,sass,scss,less",
+		"prefix": "pa",
+		"body": [
+			"position: absolute;",
+			"top: 0;",
+			"left: 0;",
+			"width: 100%;",
+			"height: 100%;",
+			"z-index: 1;"
+		],
+		"description": "position: absolute;"
+	},
+	"df": {
+		"scope": "css,sass,scss,less",
+		"prefix": "df",
+		"body": [
+			"display: flex;",
+		],
+		"description": "display: flex;"
+	},
+	"fdc": {
+		"scope": "css,sass,scss,less",
+		"prefix": "fdc",
+		"body": [
+			"flex-direction: column;"
+		],
+		"description": "flex-direction: column;"
+	},
+	"aic": {
+		"scope": "css,sass,scss,less",
+		"prefix": "aic",
+		"body": [
+			"align-items: center;"
+		],
+		"description": "align-items: center;"
+	},
+	"dff": {
+		"scope": "css,sass,scss,less",
+		"prefix": "dff",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;"
+		],
+		"description": "display: flex;justify-content: center;align-items: center;"
+	},
+	"transition": {
+		"scope": "css,sass,scss,less",
+		"prefix": "trr",
+		"body": [
+			"transition: all 0.6s ease 0s;",
+		],
+		"description": "transition: all 0.6s ease 0s;"
+	},
+	"opacityVisibility0": {
+		"scope": "css,sass,scss,less",
+		"prefix": "op",
+		"body": [
+			"opacity: 0;",
+			"visibility: hidden;"
+		],
+		"description": "opacityVisibility0"
+	},
+	"opacityVisibility1": {
+		"scope": "css,sass,scss,less",
+		"prefix": "opa",
+		"body": [
+			"opacity: 1;",
+			"visibility: visible;"
+		],
+		"description": "opacityVisibility1"
+	},
+	"fontWeight700": {
+		"scope": "css,sass,scss,less",
+		"prefix": "fwb",
+		"body": [
+			"font-weight: 700;"
+		],
+		"description": "fontWeight700"
+	},
+	"before": {
+		"scope": "css,sass,scss,less",
+		"prefix": ":::before",
+		"body": [
+			":before {",
+			"	content: \"$2\";",
+			"}"
+		],
+		"description": "before"
+	},
+	"backgroundimage": {
+		"scope": "css,sass,scss,less",
+		"prefix": "bgi",
+		"body": [
+			"background-image: url(../img/$2);",
+			"background-size: cover;",
+			"background-position: center;"
+		],
+		"description": "backgroundimage"
+	},
+	"border": {
+		"scope": "css,sass,scss,less",
+		"prefix": "brd",
+		"body": [
+			"border: solid 2px #000000;"
+		],
+		"description": "border"
+	},
+	"calc(20px + (30 - 20) * ((100vw - 250px) / (1140 - 250)))": {
+		"scope": "css,sass,scss,less",
+		"prefix": "clc",
+		"body": [
+			"calc(20px + (30 - 20) * ((100vw - 250px) / (1200 - 250)))"
+		],
+		"description": "calc(20px + (30 - 20) * ((100vw - 250px) / (1200 - 250)))"
+	},
+	"@media screen and (max-width: 1024px)": {
+		"scope": "css",
+		"prefix": "@@@",
+		"body": [
+			"@media screen and (max-width: $2px) {",
+			"  ",
+		],
+		"description": "@media screen and (max-width: 1024px)"
+	},
+	"cssIbgcss": {
+		"scope": "css",
+		"prefix": "ibg",
+		"body": [
+			".hi {",
+			"	position: relative;",
+			"	width: 100%;",
+			"	height: 100%;",
+			"	background-size: cover;",
+			"	background-position: center;",
+			"}",
+			".hi__ibg {",
+			"	position: absolute;",
+			"	top: 0;",
+			"	left: 0;",
+			"	width: 100%;",
+			"	height: 100%;",
+			"	z-index: -1;",
+			"}",
+		],
+		"description": "cssIbg"
+	},
+	"cssIbgscss": {
+		"scope": "sass,scss,less",
+		"prefix": "ibg",
+		"body": [
+			".hi {",
+			"	position: relative;",
+			"	width: 100%;",
+			"	height: 100%;",
+			"	background-size: cover;",
+			"	background-position: center;",
+			"	&__ibg {",
+			"		position: absolute;",
+			"		top: 0;",
+			"		left: 0;",
+			"		width: 100%;",
+			"		height: 100%;",
+			"		z-index: -1;",
+			"	}",
+			"}",
+
+		],
+		"description": "cssIbg"
+	},
+	"animation": {
+		"scope": "css,sass,scss,less",
+		"prefix": "animation",
+		"body": [
+			"animation: Name 1s ease 0s;"
+		],
+		"description": "@keyframes"
+	},
+	"@keyframes": {
+		"scope": "css,sass,scss,less",
+		"prefix": "@@keyframes",
+		"body": [
+			"@keyframes animNameTitle {",
+			"	0% {",
+			"		$2",
+			"	}",
+			"	100% {",
+			"		",
+			"	}",
+			"}",
+		],
+		"description": "@keyframes"
+	},
+	"BOX-SHADOW": {
+		"scope": "css,sass,scss,less",
+		"prefix": "box-shadow",
+		"body": [
+			"box-shadow: 0px 0px 0px #ffffff;"
+		],
+		"description": "BOX-SHADOW"
+	},
+	/* =============================================  Font  --Start--  ============================================= */
+	"linkff": {
+		"scope": "css,sass,scss,less",
+		"prefix": "linkff",
+		"body": [
+			"@font-face {",
+			"	font-family: \"���������\";",
+			"	font-display: swap;",
+			"	src: url(\"../fonts/����������.eot\");",
+			"	src: local(\"O\"), url(\"../fonts/����������.woff\") format(\"woff\"),",
+			"			url(\"../fonts/����������.ttf\") format(\"truetype\"), ",
+			"			url(\"../fonts/����������.svg\") format(\"svg\");",
+			"	font-weight: normal;",
+			"	font-style: normal;",
+			"}"
+		],
+		"description": "link-font-face"
+	},
+	"infofw": {
+		"scope": "css,sass,scss,less",
+		"prefix": "infofw",
+		"body": [
+			"100 - Thin",
+			"200 - Extra-light (Ultra-light)",
+			"300 - Light",
+			"400 - Regular (Normal)",
+			"500 - Medium",
+			"600 - Semi-bold",
+			"700 - Bold",
+			"800 - Extra-bold (Ultra-bold)",
+			"900 - Black (Heavy)",
+		],
+		"description": "info-font-weight"
+	},
+	/* =============================================  Font  --End--  ============================================= */
+	/* =============================================  CSS  --End--  ============================================= */
+
+	"Rating": {
+		"scope": "html, htm",
+		"prefix": "rating",
+		"body": [
+			"<div class=\"rating rating_set\">\n\t<div class=\"rating__body\">\n\t\t<div class=\"rating__active\"></div>\n\t\t<div class=\"rating__items\">\n\t\t\t<input type=\"radio\" class=\"rating__item\" value=\"1\" name=\"rating\">\n\t\t\t<input type=\"radio\" class=\"rating__item\" value=\"2\" name=\"rating\">\n\t\t\t<input type=\"radio\" class=\"rating__item\" value=\"3\" name=\"rating\">\n\t\t\t<input type=\"radio\" class=\"rating__item\" value=\"4\" name=\"rating\">\n\t\t\t<input type=\"radio\" class=\"rating__item\" value=\"5\" name=\"rating\">\n\t\t</div>\n\t</div>\n\t<div class=\"rating__value\">3.6</div>\n</div>"
+		],
+		"description": "Добавляет базовый HTML код рейтинга"
+	},
+	"Spollers": {
+		"scope": "html, htm",
+		"prefix": "spollers",
+		"body": [
+			"<div data-spollers class=\"spollers\">\n\t<div class=\"spollers__item\">\n\t\t<button type=\"button\" data-spoller class=\"spollers__title\">Заголовок спойлера</button>\n\t\t<div class=\"spollers__body\">Контент спойлера</div>\n\t</div>\n</div>"
+		],
+		"description": "Добавляет базовый HTML код спойлеров"
+	},
+	"Tabs": {
+		"scope": "html, htm",
+		"prefix": "tabs",
+		"body": [
+			"<div data-tabs class=\"${1:tabs}\">\n\t<nav data-tabs-titles class=\"${1:tabs}__navigation\">\n\t\t<button type=\"button\" class=\"${1:tabs}__title _tab-active\">Таб №1</button>\n\t\t<button type=\"button\" class=\"${1:tabs}__title\">Таб №2</button>\n\t\t<button type=\"button\" class=\"${1:tabs}__title\">Таб №3</button>\n\t</nav>\n\t<div data-tabs-body class=\"${1:tabs}__content\">\n\t\t<div class=\"${1:tabs}__body\">\n\t\t\t1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odio exercitationem, excepturi similique nulla, voluptatem reprehenderit neque a minima eaque tenetur? Quos fugit voluptate enim quo sed, minima error molestias!\n\t\t</div>\n\t\t<div class=\"${1:tabs}__body\">\n\t\t\t2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odio exercitationem, excepturi similique nulla, voluptatem reprehenderit neque a minima eaque tenetur? Quos fugit voluptate enim quo sed, minima error molestias!\n\t\t</div>\n\t\t<div class=\"${1:tabs}__body\">\n\t\t\t3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odio exercitationem, excepturi similique nulla, voluptatem reprehenderit neque a minima eaque tenetur? Quos fugit voluptate enim quo sed, minima error molestias!\n\t\t</div>\n\t</div>\n</div>"
+		],
+		"description": "Добавляет базовый HTML код табов"
+	},
+	"Show More": {
+		"scope": "html, htm",
+		"prefix": "showmore",
+		"body": [
+			"<div data-showmore class=\"${1:block}\">\n\t<div data-showmore-content class=\"${1:block}__content\"></div>\n\t<button hidden data-showmore-button type=\"button\" class=\"${1:block}__more\"><span>Показать еще</span><span>Скыть</span></button>\n</div>"
+		],
+		"description": "Добавляет базовый HTML код блока 'показать еще'"
+	},
+	"Swiper": {
+		"scope": "html, htm",
+		"prefix": "swiper",
+		"body": [
+			"<div class=\"${1:имя блока}__slider\">\n\t<div class=\"${1:имя блока}__swiper\">\n\t\t<div class=\"${1:имя блока}__slide\"></div>\n\t</div>\n</div>"
+		],
+		"description": "Добавляет базовый HTML код слайдера Swiper"
+	},
+	"Quantity": {
+		"scope": "html, htm",
+		"prefix": "quantity",
+		"body": "<div class=\"quantity\">\n\t<button type=\"button\" class=\"quantity__button quantity__button_plus\"></button>\n\t<div class=\"quantity__input\">\n\t\t<input autocomplete=\"off\" type=\"text\" name=\"form[]\" value=\"1\">\n\t</div>\n\t<button type=\"button\" class=\"quantity__button quantity__button_minus\"></button>\n</div>",
+		"description": "Добавняет HTML формы с кол-вом"
+	},
+	"Add tooltip": {
+		"scope": "html, htm",
+		"prefix": "tip",
+		"body": [
+			"data-tippy-content=\"Подсказка\""
+		],
+		"description": "Добавляет текст-подсказку (Tippy)"
+	},
+	"Add data-required": {
+		"scope": "html, htm",
+		"prefix": "req",
+		"body": [
+			"data-required"
+		],
+		"description": "Добавляет атрибут к полю формы"
+	},
+	"Add dynamic adapt": {
+		"scope": "html, htm",
+		"prefix": "responce",
+		"body": [
+			"data-responce=\".${1:имя блока}, 768\""
+		],
+		"description": "Добавляет атрибут динамического адаптива"
+	},
+	"Add input tag": {
+		"scope": "html, htm",
+		"prefix": "inp",
+		"body": "<input autocomplete=\"off\" type=\"text\" name=\"form[]\" data-error=\"Ошибка\" placeholder=\"\" class=\"input\">",
+		"description": "Добавляет input со настройками"
+	},
+	"Add container": {
+		"scope": "html, htm",
+		"prefix": "cnt",
+		"body": "<div class=\"${1:имя блока}__container\">\n\t$2\n</div>",
+		"description": "Добавляет ограничивающий контейнер"
+	},
+	"Adaptiv Value": {
+		"scope": "scss, sass, lass",
+		"prefix": "av",
+		"body": [
+			"@include adaptiveValue(\"${1:padding}\", 00, 00);"
+		],
+		"description": "Адаптивное свойство: CSS-свойство, начальное значение, конечное значение, ширина начальная, ширина конечная"
+	},
+	"EM": {
+		"scope": "scss, sass, lass",
+		"prefix": "em",
+		"body": [
+			"em($1,$2)"
+		],
+		"description": "Вызов миксина перевода в EM"
+	},
+	"REM": {
+		"scope": "scss, sass, lass",
+		"prefix": "rem",
+		"body": [
+			"rem($1)"
+		],
+		"description": "Вызов миксина перевода в REM"
+	},
+	"Percent": {
+		"scope": "scss, sass, lass",
+		"prefix": "prc",
+		"body": [
+			"percent($1,$2)"
+		],
+		"description": "Вызов миксина перевода в %"
+	},
+	"Percent padding": {
+		"scope": "scss, sass, lass",
+		"prefix": "pbp",
+		"body": [
+			"padding-bottom: percent($1,$2);"
+		],
+		"description": "Отступ вниз с указанием %"
+	},
+	"Font Size in REM": {
+		"scope": "scss, sass, lass",
+		"prefix": "fz",
+		"body": [
+			"font-size: rem($1);"
+		],
+		"description": "Переводит PX в REM"
+	},
+	"Divade": {
+		"scope": "scss, sass, lass",
+		"prefix": "di",
+		"body": [
+			"math.div($1,$2)"
+		],
+		"description": "Деление чисел"
+	},
+	"Font Family": {
+		"scope": "scss, sass, lass",
+		"prefix": "ffn",
+		"body": [
+			"ff($1)"
+		],
+		"description": "Вызов миксина Font Family"
+	},
+	"Font Family_Name": {
+		"scope": "scss, sass, lass",
+		"prefix": "ff",
+		"body": [
+			"font-family: ff($1);"
+		],
+		"description": "Вызов миксина Font Family"
+	},
+	"Width with REM": {
+		"scope": "scss, sass, lass",
+		"prefix": "w",
+		"body": "width: rem($1);",
+		"description": "Добавляет width c переводом в REM"
+	},
+	"Height with REM": {
+		"scope": "scss, sass, lass",
+		"prefix": "h",
+		"body": "height: rem($1);",
+		"description": "Добавляет height c переводом в REM"
+	},
+	"Margin bottom with REM": {
+		"scope": "scss, sass, lass",
+		"prefix": "mb",
+		"body": "margin-bottom: rem($1);",
+		"description": "Добавляет нижний отступ c переводом в REM"
+	},
+	"Margin top with REM": {
+		"scope": "scss, sass, lass",
+		"prefix": "mt",
+		"body": "margin-top: rem($1);",
+		"description": "Добавляет верхний отступ c переводом в REM"
+	},
+	"Margin bottom with EM": {
+		"scope": "scss, sass, lass",
+		"prefix": "mbe",
+		"body": "margin-bottom: em($1, $2);",
+		"description": "Добавляет нижний отступ c переводом в EM"
+	},
+	"Margin Bottom not last-child": {
+		"scope": "scss, sass, lass",
+		"prefix": "mbl",
+		"body": [
+			"&:not(:last-child) {margin-bottom: $1px;}"
+		],
+		"description": "Добавляет нижний отступ исключая последний объект"
+	},
+	"Margin Bottom not last-child with EM": {
+		"scope": "scss, sass, lass",
+		"prefix": "mble",
+		"body": [
+			"&:not(:last-child) {margin-bottom: em($1, $2);}"
+		],
+		"description": "Добавляет нижний отступ исключая последний объект c переводом в EM"
+	},
+	"Not last-child": {
+		"scope": "scss, sass, lass",
+		"prefix": "nlc",
+		"body": [
+			"&:not(:last-child) {\n\t$1\n}"
+		],
+		"description": "Исключая последний объект"
+	},
+	"Line height": {
+		"scope": "scss, sass, lass",
+		"prefix": "lh",
+		"body": "line-height: math.div( $1, 00);",
+		"description": "Добавляет относительный line-height"
+	},
+	"Color inherit": {
+		"scope": "scss, sass, lass",
+		"prefix": "ci",
+		"body": "color: inherit;",
+		"description": "Наследовать цвет предка"
+	},
+	"Max width": {
+		"scope": "scss, sass, lass",
+		"prefix": "mw",
+		"body": "max-width: rem($1);",
+		"description": "Максимальная ширина"
+	},
+	"@media max": {
+
+		"prefix": "md",
+		"body": [
+			"@media (max-width: em($1)) {\n\t $2 \n}"
+		],
+		"description": "Добавляет медиазапрос max-width c переводом в EM"
+	},
+	"@media min": {
+		"scope": "scss, sass, lass",
+		"prefix": "mmd",
+		"body": [
+			"@media (min-width:em($1)) {\n\t $2 \n}"
+		],
+		"description": "Добавляет медиазапрос min-width c переводом в EM"
+	},
+	"Add data-popup": {
+		"scope": "html, htm",
+		"prefix": "pl",
+		"body": [
+			"data-popup=\"$1\""
+		],
+		"description": "Добавляет трибут для открытия попапа"
+	},
+	"JS Click": {
+		"scope": "javascript,typescript",
+		"prefix": "click",
+		"body": [
+			"${1:document}.addEventListener(\"click\", function (e) {\n\t$2\n});"
+		],
+		"description": "document.querySelectorAll"
+	},
+	"document.querySelector": {
+		"scope": "javascript,typescript",
+		"prefix": "dq",
+		"body": [
+			"const ${1:var} = document.querySelector('.$2');"
+		],
+		"description": "document.querySelector"
+	},
+	"document.querySelectorAll": {
+		"scope": "javascript,typescript",
+		"prefix": "dqa",
+		"body": [
+			"const ${1:var} =document.querySelectorAll('.$2');"
+		],
+		"description": "document.querySelectorAll"
+	},
+	"z-index": {
+		"scope": "scss, sass, lass",
+		"prefix": "zi",
+		"body": [
+			"z-index: ${1:1};"
+		],
+		"description": "z-index"
+	},
+	"fbpp": {
+		"scope": "scss, sass, lass",
+		"prefix": "fbpp",
+		"body": [
+			"flex: 0 0 percent($1, $2);"
+		],
+		"description": "fbpp"
+	},
+	"drt": {
+		"prefix": "drt",
+		"body": [
+			"direction: rtl;"
+		],
+		"description": "drt"
+	},
+	"br5": {
+		"scope": "css,scss",
+		"prefix": "br5",
+		"body": [
+			"border-radius: 50%;"
+		],
+		"description": "br5"
+	},
+	"ex": {
+		"scope": "scss, sass, lass",
+		"prefix": "ex",
+		"body": [
+			"@extend %${1:};"
+		],
+		"description": "ex"
+	},
+	"ic": {
+		"scope": "scss, sass, lass",
+		"prefix": "ic",
+		"body": [
+			"@extend %ic;"
+		],
+		"description": "ic"
+	},
+	"lc": {
+		"scope": "scss, sass, lass",
+		"prefix": "lc",
+		"body": [
+			"&:last-child{\n\t$0\n}"
+		],
+		"description": "lc"
+	},
+	"fc": {
+		"scope": "scss, sass, lass",
+		"prefix": "fc",
+		"body": [
+			"&:first-child{\n\t$0\n}"
+		],
+		"description": "fc"
+	},
+	"nc": {
+		"scope": "scss, sass, lass",
+		"prefix": "nc",
+		"body": [
+			"&:nth-child($0) {}"
+		],
+		"description": "nc"
+	},
+	"BeforeAfter": {
+		"scope": "scss, sass, lass",
+		"prefix": "ba::",
+		"body": [
+			"&::before,&::after{\n\tcontent:'';\n\t$0\n}"
+		],
+		"description": "ba"
+	},
+	"After": {
+		"scope": "scss, sass, lass",
+		"prefix": "after",
+		"body": [
+			"&::after{\n\tcontent:'';\n\t$0\n}"
+		],
+		"description": "after"
+	},
+	"Before": {
+		"scope": "scss, sass, lass",
+		"prefix": "before",
+		"body": [
+			"&::before{\n\tcontent:'';\n\t$0\n}"
+		],
+		"description": "before"
+	},
+	"hv": {
+		"scope": "css, scss, sass, lass",
+		"prefix": "hv",
+		"body": [
+			"&:hover{\n\t$0\n}"
+		],
+		"description": "hv"
+	},
+	"hhv": {
+		"scope": "scss, sass, lass",
+		"prefix": "anyhover",
+		"body": [
+			"@media (any-hover: hover) {\n\t&:hover{\n\t\t$0\n\t}\n}"
+		],
+		"description": "hhv"
+	},
+	"ac_css": {
+		"scope": "scss, sass, lass",
+		"prefix": "active",
+		"body": [
+			"&._active{\n\t$0\n}"
+		],
+		"description": "ac_css"
+	},
+	"ac_html": {
+		"prefix": "active",
+		"body": [
+			"_active"
+		],
+		"description": "ac_html"
+	},
+	"bg+": {
+		"scope": "css, scss, sass, lass",
+		"prefix": "bg+",
+		"body": [
+			"background: url('@img$0') 0 0 no-repeat;"
+		],
+		"description": "bg+"
+	},
+	"md1": {
+		"scope": "scss, sass, lass",
+		"prefix": "md1",
+		"body": [
+			"@media (max-width: \\$pc) {\n\t$0\n}"
+		],
+		"description": "md1"
+	},
+	"mmd1": {
+		"scope": "scss, sass, lass",
+		"prefix": "mmd1",
+		"body": [
+			"@media (min-width: \\$pc) {\n\t$0\n}"
+		],
+		"description": "md1"
+	},
+	"md2": {
+		"scope": "scss, sass, lass",
+		"prefix": "md2",
+		"body": [
+			"@media (max-width: \\$tablet) {\n\t$0\n}"
+		],
+		"description": "md2"
+	},
+	"mmd2": {
+		"scope": "scss, sass, lass",
+		"prefix": "mmd2",
+		"body": [
+			"@media (min-width: \\$tablet) {\n\t$0\n}"
+		],
+		"description": "md1"
+	},
+	"md3": {
+		"scope": "scss, sass, lass",
+		"prefix": "md3",
+		"body": [
+			"@media (max-width: \\$mobile) {\n\t$0\n}"
+		],
+		"description": "md3"
+	},
+	"mmd3": {
+		"scope": "scss, sass, lass",
+		"prefix": "mmd3",
+		"body": [
+			"@media (min-width: \\$mobile) {\n\t$0\n}"
+		],
+		"description": "md1"
+	},
+	"md4": {
+		"scope": "scss, sass, lass",
+		"prefix": "md4",
+		"body": [
+			"@media (max-width: \\$mobileSmall) {\n\t$0\n}"
+		],
+		"description": "md4"
+	},
+	"mmd4": {
+		"scope": "scss, sass, lass",
+		"prefix": "mmd4",
+		"body": [
+			"@media (min-width: \\$mobileSmall) {\n\t$0\n}"
+		],
+		"description": "md1"
+	},
+	"dif": {
+		"scope": "css, scss, sass, lass",
+		"prefix": "dif",
+		"body": [
+			"display: inline-flex;"
+		],
+		"description": "dif"
+	},
+	"fbo": {
+		"scope": "css, scss, sass, lass",
+		"prefix": "fbo",
+		"body": [
+			"order:${1:1};"
+		],
+		"description": "fbo"
+	},
+	"fbg": {
+		"scope": "css, scss, sass, lass",
+		"prefix": "f11100%",
+		"body": [
+			"flex: 1 1 100%;"
+		],
+		"description": "flex: 1 1 100%;"
+	},
+	"fbga": {
+		"scope": "css, scss, sass, lass",
+		"prefix": "f11a",
+		"body": [
+			"flex: 1 1 auto;"
+		],
+		"description": "flex: 1 1 auto;"
+	},
+	"fbgt": {
+		"scope": "css, scss, sass, lass",
+		"prefix": "f0133",
+		"body": [
+			"flex: 0 1 33.333%;"
+		],
+		"description": "flex: 0 1 33.333%;"
+	},
+	"fbgq": {
+		"scope": "css, scss, sass, lass",
+		"prefix": "f0125%",
+		"body": [
+			"flex: 0 1 25%;"
+		],
+		"description": "flex: 0 1 25%;"
+	},
+	"fbp": {
+		"scope": "css, scss, sass, lass",
+		"prefix": "f00",
+		"body": [
+			"flex: 0 0 $1;"
+		],
+		"description": "flex: 0 0;"
+	},
+	"lcm": {
+		"scope": "scss, sass, lass",
+		"prefix": "lcm",
+		"body": [
+			"&:last-child{margin:0px 0px 0px 0px;}"
+		],
+		"description": "lcm"
+	},
+	"html._pc": {
+		"scope": "scss, sass, lass",
+		"prefix": "hover",
+		"body": [
+			"html._pc & {\n\t$1\n}"
+		],
+		"description": "html._pc"
+	},
+	"kf": {
+		"scope": "scss, sass, lass",
+		"prefix": "kf",
+		"body": "@keyframes ${1:name} {\n\t0% {\n\t\t$2\n\t}\n\t100% {\n\t\t$3\n\t}\n}",
+		"description": "kf"
+	},
+	"qa": {
+		"scope": "html, htm, kit",
+		"prefix": "qa",
+		"body": "<div class=\"quantity\"><div class=\"quantity__button quantity__button_plus _icon-plus\"></div><div class=\"quantity__input\"><input autocomplete=\"off\" type=\"text\" name=\"form[]\" value=\"1\"></div><div class=\"quantity__button quantity__button_minus _icon-minus\"></div></div>",
+		"description": "qa"
+	},
+	"Textarea": {
+		"scope": "html, htm, kit",
+		"prefix": "txta",
+		"body": "<textarea autocomplete=\"off\" name=\"form[]\" placeholder=\"$1\" data-error=\"Ошибка\" class=\"input\"></textarea>",
+		"description": "txta"
+	},
+	"Select": {
+		"scope": "html, htm, kit",
+		"prefix": "sel",
+		"body": "<select name=\"form[]\" class=\"form\">\n\t<option value=\"1\" selected>Пункт №1</option>\n\t<option value=\"2\">Пункт №2</option>\n\t<option value=\"3\">Пункт №3</option>\n\t<option value=\"4\">Пункт №4</option>\n</select>",
+		"description": "sel"
+	},
+	"Radio buttons": {
+		"prefix": "opt",
+		"body": "<div class=\"options\">\n\t<div class=\"options__item\">\n\t\t<input hidden id=\"o_1\" class=\"options__input\" checked type=\"radio\" value=\"1\" name=\"option\">\n\t\t<label for=\"o_1\" class=\"options__label\"><span class=\"options__text\">${1:Текст}</span></label>\n\t</div>\n\t<div class=\"options__item\">\n\t\t<input hidden id=\"o_2\" class=\"options__input\" type=\"radio\" value=\"2\" name=\"option\">\n\t\t<label for=\"o_2\" class=\"options__label\"><span class=\"options__text\">${2:Текст}</span></label>\n\t</div>\n</div>",
+		"description": ""
+	},
+	"CheckBox": {
+		"scope": "html, htm, kit",
+		"prefix": "chk",
+		"body": "<div class=\"checkbox\">\n\t<input id=\"c_1\" data-error=\"Ошибка\" class=\"checkbox__input\" type=\"checkbox\" value=\"1\" name=\"form[]\">\n\t<label for=\"c_1\" class=\"checkbox__label\"><span class=\"checkbox__text\">${1:Текст}</span></label>\n</div>",
+		"description": ""
+	},
+	"Button": {
+		"scope": "html, htm, kit",
+		"prefix": "btn",
+		"body": "<button type=\"submit\" class=\"button\">${1:Отправить}</button>",
+		"description": ""
+	},
+	"Button Item": {
+		"scope": "html, htm, kit",
+		"prefix": "bbtn",
+		"body": "<button type=\"button\" class=\"${1:class}\">${2:Текст}</button>",
+		"description": ""
+	},
+	"str": {
+		"scope": "html, htm, kit",
+		"prefix": "str",
+		"body": "<div class=\"${1:block}\">\n\t<div class='${1:block}__container'>\n\t\t<div class=\"${1:block}__title\"></div>\n\t\t<div class=\"${1:block}__row\">\n\t\t\t<div class=\"${1:block}__column\">\n\t\t\t\t$2\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>",
+		"description": "str"
+	},
+	"nowrap": {
+		"scope": "css, sass, scss, lass",
+		"prefix": "wsnw",
+		"body": "white-space: nowrap;",
+		"description": "nowrap"
+	},
+	"spollersTitle": {
+		"scope": "sass, scss, lass",
+		"prefix": "spollersTitle",
+		"body": "width: 100%;\ncursor: default;\ntext-align: left;\nborder: 1px solid #eee;\npadding: rem(10) rem(15);\nborder-radius: rem(5);\nposition: relative;\n._spoller-init & {\n\tcursor: pointer;\n\t&::before,\n\t&::after {\n\t\tcontent: \"\";\n\t\tposition: absolute;\n\t\tright: 10px;\n\t\ttop: 50%;\n\t\tbackground-color: #000;\n\t\theight: 2px;\n\t\twidth: 15px;\n\t\ttransition: transform 0.5s ease 0s;\n\t}\n\t&::before {\n\t\ttransform: translate(-75%, -50%) rotate(40deg);\n\t}\n\t&::after {\n\t\ttransform: translate(0, -50%) rotate(-40deg);\n\t}\n\t&._spoller-active {\n\t\t&::before {\n\t\ttransform: translateX(-75%) rotate(-40deg);\n\t\t}\n\t\t&::after {\n\t\ttransform: rotate(40deg);\n\t\t}\n\t}\n}",
+		"description": "spollers__title"
+	},
+}
