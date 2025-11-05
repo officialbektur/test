@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "0b4edecd-790b-4cea-a9c4-1104e2473550",
+		"name": "task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36418350"
+	},
+	"item": [
+		{
+			"name": "Index",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/{{v}}/tasks",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"{{v}}",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Store",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "jhg",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "вцвйцвй",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/api/{{v}}/tasks",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"{{v}}",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "ffd",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/api/{{v}}/tasks/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"{{v}}",
+						"tasks",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "102"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "{{accept}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/{{v}}/tasks/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"{{v}}",
+						"tasks",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "{{accept}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/{{v}}/tasks/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"{{v}}",
+						"tasks",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "103"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
