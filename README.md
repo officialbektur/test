@@ -1,4 +1,4 @@
-# Laravel Task API
+# Laravel Task API (To-Do List)
 
 ## Версии
 - **Composer:** 2.8.10
